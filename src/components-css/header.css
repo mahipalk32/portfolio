@@ -1,3 +1,7 @@
+/* body {
+  font-family: "Dancing Script", cursive;
+} */
+
 .header-main {
     height: 100px;
     background-color: #0C2D57;
@@ -11,8 +15,11 @@
   justify-content: center; 
   align-items: center; 
   width: 25%;
-  /* background-color: #63bcef; */
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  color: #fff;
 }
+
 
 .child2 {
     display: flex;
@@ -26,5 +33,13 @@
 
 .child2 label {
     margin-right: 10%; /* Adjust the spacing between labels */
+    color: white;
+    cursor: pointer;
+    font-family:sans-serif;
+    transition: transform 0.3s;
+}
+
+label:hover {
+  transform: scale(1.2);
 }
 

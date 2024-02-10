@@ -4,11 +4,12 @@ import "../components-css/header.css";
 function Header() {
   return (
     <div className="header-main">
-      <div className="child1">hII</div>
+      <div className="child1">MAHIPAL KELUTH</div>
       <div className="child2">
-        <label>hello</label>
-        <label>hii</label>
-        <label>wellcome</label>
+        <label>HOME</label>
+        <label>SKILLS</label>
+        <label>PROJECTS</label>
+        <label>CONTACT</label>
       </div>
     </div>
   );

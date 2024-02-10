@@ -6,28 +6,29 @@ function Profile() {
     <div
       style={{
         display: "flex",
-        marginLeft: "aut0",
-        marginRight: "auto",
+        // marginLeft: "aut0",
+        // marginRight: "auto",
         justifyContent: "center",
+        alignItems:"center"
       }}
     >
       <div
         style={{
-          backgroundColor: "black",
-          width: "400px",
-          height: "400px",
+          backgroundColor: "#0B2447",
+          width: "300px",
+          height: "300px",
           justifyContent: "center",
           alignItems: "center",
-          borderRadius: "200px",
+          borderRadius: "175px",
         }}
       >
         <div
           style={{
-            backgroundColor: "aqua",
+            backgroundColor: "#B8E8FC",
             width: "85%",
             height: "85%",
             margin: "auto",
-            marginTop: "30px",
+            marginTop: "25px",
             overflow: "hidden",
             borderRadius: "175px",
             display: "flex",
