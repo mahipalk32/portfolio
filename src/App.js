@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Header from "./components/Header";
+import Profile from "./components/Profile";
 function App() {
+
+  //191F3D
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <div style={{ display: "flex", flexDirection: "row", height:"500px",  justifyContent:"space-evenly", backgroundColor:"#F0F7FC"}}> 
+        <div style={{ flex: 1 , display:"flex", justifyContent:"center", alignItems:"center"}}>
+          <p>In this example, we have an HTML file with a  element where the generated text will be displayed. The JavaScript file contains an array of phrases, and a function </p>
+        </div>
+        <div style={{ flex: 1 , height:"500px", justifyContent:"center", marginTop:"50px",alignItems:"center"}}>
+          <Profile />
+        </div>
+      </div>
     </div>
   );
 }
-
 export default App;

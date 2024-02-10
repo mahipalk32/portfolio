@@ -1,0 +1,30 @@
+.header-main {
+    height: 100px;
+    background-color: #0C2D57;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.child1 {
+    display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 25%;
+  /* background-color: #63bcef; */
+}
+
+.child2 {
+    display: flex;
+    flex: end;
+  justify-content: flex-end; 
+  align-items: center; 
+  width: 75%;
+  /* margin-right: 10%; */
+}
+
+
+.child2 label {
+    margin-right: 10%; /* Adjust the spacing between labels */
+}
+
