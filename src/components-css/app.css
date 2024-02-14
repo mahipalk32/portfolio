@@ -1,0 +1,7 @@
+.container-home {
+  background-color: #F0F7FC;
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  justify-content: space-evenly;
+}

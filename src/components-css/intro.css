@@ -1,10 +1,25 @@
 h4 {
-    font-family: "Protest Strike", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.5rem;
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
 }
 p {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#0E2954;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #0e2954;
+}
+
+.sub-div1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-div2 {
+  display: flex;
+  flex: 1;
+  height: "500px";
+  justify-content: center;
+  align-items: center;
 }

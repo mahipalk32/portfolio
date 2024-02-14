@@ -1,13 +1,16 @@
+import About from "./components/About";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
+import "./components-css/app.css"
 function App() {
-
-  //191F3D
   return (
     <div>
       <Header />
-      <div style={{ display: "flex", flexDirection: "row", height:"500px",  justifyContent:"space-evenly", backgroundColor:"#F0F7FC"}}> 
+      <div className="container-home" id="home">
         <Intro />
+      </div>
+      <div id="about">
+        <About />
       </div>
     </div>
   );
