@@ -1,0 +1,7 @@
+.skills-sub-child1 a{
+    transition: transform 0.3s;
+}
+
+.skills-sub-child1 a:hover {
+    transform: scale(1.2);
+}
